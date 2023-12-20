@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Assets/favicon_0_0.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/98bdf1583b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="nav-slider">
+      <div class="menu">
+        <a href="">Why EuroSchool</a>
+        <a href="">Admissions</a>
+        <a href="">Campuses</a>
+        <a href="">Contact</a>
+      </div>
+    </div>
+    <section class="hero">
+      <div class="nav">
+        <img src="Assets/school_logo.png" alt="" />
+        <div class="links">
+          <a class="link link1">Why EuroSchool</a>
+          <a class="link">Admissions</a>
+          <a class="link">Campuses</a>
+          <a class="link">Contact</a>
+          <div class="ham-div">
+            <span class="hamburger"></span>
+          </div>
+        </div>
+      </div>
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          <
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          >
+        </button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img
+              src="https://source.unsplash.com/78A265wPiO4"
+              alt="Nature Image #1"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://source.unsplash.com/eOpewngf68w"
+              alt="Nature Image #2"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://source.unsplash.com/ndN00KmbJ1c"
+              alt="Nature Image #3"
+            />
+          </li>
+        </ul>
+        <div class="content">
+          <h1 class="heading">
+            Teachers that can make learning fun and growth holistic
+          </h1>
+          <p class="desc">
+            EuroSchool has the best technology, infrastructure and facilities.
+            But, more than that, it is our highly skilled and dedicated teachers
+            that makes Euroschool children’s favourite place of learning!
+          </p>
+          <button class="admissionButton">
+            - Application form (Jr. and Sr.)
+          </button>
+          <button class="admissionButton">
+            - Application form (Grade 1 to 12)
+          </button>
+        </div>
+      </div>
+      <section class="journey">
+        <div class="accomplishment">
+          <div class="heading">
+            <h2>
+              -
+              <span
+                style="
+                  font-family: HelveticaNeueIt;
+                  font-size: 3rem;
+                  letter-spacing: 1px;
+                  font-weight: 300;
+                "
+                >EUROSCHOOL</span
+              >
+              Our Journey At A Glance
+            </h2>
+          </div>
+          <div class="info-flex">
+            <div class="info">
+              <div class="schools">
+                <span class="icon fas fa-school"></span>
+                <div>
+                  <h2>16</h2>
+                  <p>Schools</p>
+                </div>
+              </div>
+              <div class="students">
+                <span class="icon fas fa-user"></span>
+                <div>
+                  <h2>1,200+</h2>
+                  <p>Educators</p>
+                </div>
+              </div>
+              <div class="educators">
+                <span class="icon fas fa-user-graduate"></span>
+                <div>
+                  <h2>25,000</h2>
+                  <p>Students</p>
+                </div>
+              </div>
+              <div class="digital-classroom">
+                <span class="icon fas fa-laptop"></span>
+                <div>
+                  <h2>550</h2>
+                  <p>Digitally enabled classrooms</p>
+                </div>
+              </div>
+              <div class="books">
+                <span class="icon fas fa-book"></span>
+                <div>
+                  <h2>100,000+</h2>
+                  <p>Books in libraries</p>
+                </div>
+              </div>
+              <div class="buses">
+                <span class="icon fas fa-bus"></span>
+                <div>
+                  <h2>300+</h2>
+                  <p>GPS enabled school buses</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="grid-comp">
+        <div class="cards-comp">
+          <div class="cards">
+            <div class="heading">
+              <h2>- WHY</h2>
+              <h2>CHOOSE</h2>
+              <h2 class="us">US?</h2>
+            </div>
+            <div class="card card1">
+              <h3>Digital Ecosystem</h3>
+              <i class="fas fa-digital-tachograph"></i>
+              <p>Argus: A Digital Learning Ecosystem</p>
+            </div>
+            <div class="card">
+              <h3>NEP 2020 Curriculum</h3>
+              <i class="fas fa-graduation-cap"></i>
+              <p>A curriculum for 21st century learning skills</p>
+            </div>
+            <div class="card">
+              <h3>Center Excellence</h3>
+              <i class="fab fa-centercode"></i>
+              <p>Certified courses by professionals</p>
+            </div>
+            <div class="card">
+              <h3>Balanced Schooling</h3>
+              <i class="fas fa-balance-scale"></i>
+              <p>For Experiential Co-curricular Learning</p>
+            </div>
+            <div class="card">
+              <h3>Child First Saftey First</h3>
+              <i class="fas fa-certificate"></i>
+              <p>Bureau Veritas Certified Safe School</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <button class="videoPlayer closeVideo" onclick="stopVideo()">
+          Close Video
+        </button>
+        <video
+          class="ytvideo"
+          controls
+          src="Assets/x2mate.com-EuroSchool India _ Learning Beyond Academics _ ASPIRE-(1080p).mp4"
+        ></video>
+        <div class="main">
+          <h2 class="title">
+            Programs beyond academics in collaboration with world class partners
+          </h2>
+          <button class="videoPlayer" onclick="playVideo()">Watch Video</button>
+        </div>
+      </section>
+      <section class="bookAdmission">
+        <div class="children-flex">
+          <div class="child">
+            <h1>-Admissions Open for AY 2024-2025</h1>
+            <button>Enroll Now</button>
+          </div>
+          <div class="parent">
+            <div class="parent-div">
+              <img src="Assets/Request-a-Callback.png" alt="" />
+              <h3>Call us</h3>
+              <p>For any queries, get in touch with us +917045917603.</p>
+            </div>
+            <div class="parent-div">
+              <img src="Assets/Speak-to-Counsellors.png" alt="" />
+              <h3>Speak to Counsellors</h3>
+              <p>Let our expert counsellors guide you through your doubts.</p>
+            </div>
+            <div class="parent-div">
+              <img src="Assets/Book-a-Visit.png" alt="" />
+              <h3>Book a Visit</h3>
+              <p>Take a walk through our smart campuses!</p>
+            </div>
+            <div class="parent-div">
+              <img src="Assets/Admissions.png" alt="" />
+              <h3>Admissions</h3>
+              <p>Admissions made easy with digital applications!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="hero-section">
+        <div class="one"></div>
+        <div class="loop-image" id="loop-image1">
+          <h2 class="heading">
+            Teachers that can make learning fun and growth holistic
+          </h2>
+          <p class="desc">
+            EuroSchool has the best technology, infrastructure and facilities.
+            But, more than that, it is our highly skilled and dedicated teachers
+            that makes Euroschool children’s favourite place of learning!
+          </p>
+          <div class="application-buttons">
+            <button class="application-button">
+              Application form (Jr. and Sr.)
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.25 6.25C0.25 2.93629 2.93629 0.25 6.25 0.25H15.75C19.0637 0.25 21.75 2.93629 21.75 6.25V15.75C21.75 19.0637 19.0637 21.75 15.75 21.75H6.25C2.93629 21.75 0.25 19.0637 0.25 15.75V6.25Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16.3286 5.67579C16.4692 5.81644 16.5482 6.00721 16.5482 6.20612L16.5482 13.2772C16.5482 13.6914 16.2124 14.0272 15.7982 14.0272C15.384 14.0272 15.0482 13.6914 15.0482 13.2772L15.0482 8.01678L6.73211 16.3329C6.43922 16.6258 5.96434 16.6258 5.67145 16.3329C5.37856 16.04 5.37856 15.5651 5.67145 15.2722L13.9876 6.95612L8.72716 6.95612C8.31295 6.95612 7.97716 6.62033 7.97716 6.20612C7.97716 5.7919 8.31295 5.45612 8.72716 5.45612L15.7982 5.45612C15.9971 5.45612 16.1879 5.53514 16.3286 5.67579Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <button class="application-button">
+              Application form (Grade 1 to 12)
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.25 6.25C0.25 2.93629 2.93629 0.25 6.25 0.25H15.75C19.0637 0.25 21.75 2.93629 21.75 6.25V15.75C21.75 19.0637 19.0637 21.75 15.75 21.75H6.25C2.93629 21.75 0.25 19.0637 0.25 15.75V6.25Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16.3286 5.67579C16.4692 5.81644 16.5482 6.00721 16.5482 6.20612L16.5482 13.2772C16.5482 13.6914 16.2124 14.0272 15.7982 14.0272C15.384 14.0272 15.0482 13.6914 15.0482 13.2772L15.0482 8.01678L6.73211 16.3329C6.43922 16.6258 5.96434 16.6258 5.67145 16.3329C5.37856 16.04 5.37856 15.5651 5.67145 15.2722L13.9876 6.95612L8.72716 6.95612C8.31295 6.95612 7.97716 6.62033 7.97716 6.20612C7.97716 5.7919 8.31295 5.45612 8.72716 5.45612L15.7982 5.45612C15.9971 5.45612 16.1879 5.53514 16.3286 5.67579Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="loop-image">
+          <h2 class="heading">
+            Discover Yourself At EuroSchool - A School of opportunity!
+          </h2>
+          <p class="desc">
+            EuroSchool is an International school that incorporates the best
+            learning practices. We believe, when the greatest teachers get the
+            sharpest tools, they can awaken the genius in each child!
+          </p>
+        </div>
+        <div class="four"></div>
+      </div>
+    </section>
+    <section class="journey">
+      <div class="accomplishment">
+        <div class="heading">
+          <h2>- EUROSCHOOL Our Journey At A Glance</h2>
+        </div>
+        <div class="info">
+          <div class="schools"></div>
+          <div class="students"></div>
+          <div class="educators"></div>
+          <div class="area"></div>
+          <div class="digital-classroom"></div>
+          <div class="books"></div>
+          <div class="buses"></div>
+        </div>
+      </div> -->
+    </section>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.28/bundled/lenis.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="slider.js"></script>
+
+  <script>
+    const lenis = new Lenis();
+
+    lenis.on("scroll", (e) => {
+      // console.log(e);
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  </script>
+</html>
