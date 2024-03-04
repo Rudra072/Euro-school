@@ -102,7 +102,7 @@ function openNav() {
     {
       opacity: 1,
       ease: "expo.out",
-      duration: 1.5,
+      duration: 1.3,
       y: "0%",
     },
     "+=1"
@@ -134,15 +134,15 @@ function hamburgerActiveAnimation() {
   const hamburgerAfter = window.getComputedStyle(hamburger, "::after");
 
   // Create a new style rule for the pseudo-element
-  const pseudoElementStyle = document.styleSheets[0].insertRule(
-    `.hamburger::before { transform: rotate(-45deg); transform-origin: right;}`,
-    0
-  );
+  // const pseudoElementStyle = document.styleSheets[0].insertRule(
+  //   `.hamburger::before { transform: rotate(-45deg); transform-origin: right;}`,
+  //   0
+  // );
 
-  const pseudoElementStyl = document.styleSheets[0].insertRule(
-    `.hamburger::after { transform: rotate(45deg); transform-origin: right;}`,
-    0
-  );
+  // const pseudoElementStyl = document.styleSheets[0].insertRule(
+  //   `.hamburger::after { transform: rotate(45deg); transform-origin: right;}`,
+  //   0
+  // );
   // Apply the new style rule to the pseudo-element
   hamburger.style.animation = "none";
   hamburger.offsetHeight; /* trigger reflow */
