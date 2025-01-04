@@ -35,10 +35,6 @@
   background-color: var(--lightBlue);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 @font-face {
   font-family: HelveticaNeueMed;
   src: url(Assets/HelveticaNeueMed.ttf);
