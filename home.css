@@ -565,10 +565,10 @@ body {
   max-width: 250px;
 }
 
-.parent-div img {
+/* .parent-div img {
   filter: invert(48%) sepia(13%) saturate(99999%) hue-rotate(115deg)
     brightness(95%) contrast(80%);
-}
+} */
 
 /* LARGE DESKTOPS */
 @media (max-width: 1200px) {
